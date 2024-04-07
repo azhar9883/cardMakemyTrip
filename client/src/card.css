@@ -1,0 +1,37 @@
+
+.containerr {
+    background-color: rgb(56, 51, 51); 
+    height: 100vh; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+
+.header {
+    background-color: white; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 100px 10px 20px 30px; 
+}
+.aeroplane-trip-types {
+    display: flex;
+    gap: 29rem;
+    padding: 0.2rem;
+    margin: 0 0 0 4.5rem;
+    margin-top: 4%;
+
+}
+
+label {
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+input{
+    margin: 3px;
+}
